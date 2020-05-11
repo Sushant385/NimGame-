@@ -1,6 +1,11 @@
+@media screen and (max-width: 350px) {
+  body,h1,.heading,h5,label,input,p,#form,#b,#demo,#player1,.players,button,marquee,img,.stones1,input[type=text] {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 body{
-  background-image: url('background.jpg');
-  background-size: 60%;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('background.jpg');
+  background-size: 100%;
   margin: 0;
 }
 .wel{
@@ -26,8 +31,7 @@ body{
 	padding:13px 57px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #810e05;
-  margin-top: 120px;
-  margin-left: 620px;
+   margin-top: 120px;
   height: 70px;
   width: 300px;
 }
@@ -39,9 +43,7 @@ body{
 	position:relative;
 	top:1px;
 }
-#form{
-  margin-left: 554px;
-}
+
 label{
   color: #b2ebf2;
   font-size: 24px;
