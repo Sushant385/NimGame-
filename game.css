@@ -1,3 +1,8 @@
+@media screen and (max-width: 350px) {
+  body,marquee,.heading,h5,center,#st,h2,label,input,p,#form,#b,#demo,#player1,#name,#gametime,#stones,#players.players,button,marquee,img,.stones1,input[type=text] {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 body{
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('bg1.jpg');
   background-size: 100%;
@@ -12,9 +17,6 @@ body{
   text-align: center;
   font-size: 60px;
   font-family: 'Font Name', cursive;
-  position: absolute;
-  top: 8px;
-  left: 400px;
 }
 #st{
   position: absolute
